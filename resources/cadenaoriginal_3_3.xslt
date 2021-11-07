@@ -65,6 +65,7 @@
     <xsl:include href="ventavehiculos11.xslt"/>
     <xsl:include href="terceros11.xslt"/>
     <xsl:include href="Pagos10.xslt"/>
+    <xsl:include href="CartaPorte.xslt"/>
     <xsl:include href="detallista.xslt"/>
 
 
