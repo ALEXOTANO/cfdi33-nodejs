@@ -3,7 +3,9 @@
 const CFDI = require('./lib/CFDI');
 const CFDIPago = require('./lib/CFDI-pago');
 const CFDICartaPorte = require('./lib/CFDI-carta-porte');
-const CartaPorteNodes = require('./lib/Node/CartaPorte');
+const CFDICartaPorte20 = require('./lib/CFDI-carta-porte20');
+const CartaPorte20Nodes = require('./lib/Node/CartaPorte20/index.js');
+const CartaPorteNodes = require('./lib/Node/CartaPorte/index.js');
 const Emisor = require('./lib/Node/Emisor');
 const Receptor = require('./lib/Node/Receptor');
 const Concepto = require('./lib/Node/Concepto');
@@ -19,6 +21,8 @@ const Complemento = require('./lib/Node/Complemento');
 module.exports = {
   CFDI,
   CFDIPago,
+  CFDICartaPorte20,
+  CartaPorte20Nodes,
   CFDICartaPorte,
   CartaPorteNodes,
   Emisor,
