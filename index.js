@@ -1,5 +1,4 @@
 'use strict'
-asdasdasd
 const CFDI = require('./lib/CFDI');
 const CFDIPago = require('./lib/CFDI-pago');
 const CFDICartaPorte = require('./lib/CFDI-carta-porte');
